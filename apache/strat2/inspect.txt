@@ -1,0 +1,117 @@
+[
+    {
+        "Id": "sha256:4e8e6b165c4b489247575bf28e4a96280a69758f6276ce7bb83031877a789cc9",
+        "RepoTags": [
+            "apachers2:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:321c7663e94422da4dbf13a684624eb649ae8dbe80a7a99ac72081a162cf7d17",
+        "Comment": "",
+        "Created": "2019-05-03T01:52:08.759566145Z",
+        "Container": "befbb43298282964df790a25a100864039a77f91cdc2b8ea34f23f7a29a509d3",
+        "ContainerConfig": {
+            "Hostname": "befbb4329828",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "4443/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/apache2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "HTTPD_PREFIX=/usr/local/apache2",
+                "HTTPD_VERSION=2.4.39",
+                "HTTPD_SHA256=b4ca9d05773aa59b54d66cd8f4744b945289f084d3be17d7981d1783a5decfa2",
+                "HTTPD_PATCHES=",
+                "APACHE_DIST_URLS=https://www.apache.org/dyn/closer.cgi?action=download&filename= \thttps://www-us.apache.org/dist/ \thttps://www.apache.org/dist/ \thttps://archive.apache.org/dist/"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"/bin/httpd-server\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:321c7663e94422da4dbf13a684624eb649ae8dbe80a7a99ac72081a162cf7d17",
+            "Volumes": null,
+            "WorkingDir": "/usr/local/apache2",
+            "Entrypoint": [
+                "/bin/bash"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "18.06.1-ce",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "4443/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/apache2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "HTTPD_PREFIX=/usr/local/apache2",
+                "HTTPD_VERSION=2.4.39",
+                "HTTPD_SHA256=b4ca9d05773aa59b54d66cd8f4744b945289f084d3be17d7981d1783a5decfa2",
+                "HTTPD_PATCHES=",
+                "APACHE_DIST_URLS=https://www.apache.org/dyn/closer.cgi?action=download&filename= \thttps://www-us.apache.org/dist/ \thttps://www.apache.org/dist/ \thttps://archive.apache.org/dist/"
+            ],
+            "Cmd": [
+                "/bin/httpd-server"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:321c7663e94422da4dbf13a684624eb649ae8dbe80a7a99ac72081a162cf7d17",
+            "Volumes": null,
+            "WorkingDir": "/usr/local/apache2",
+            "Entrypoint": [
+                "/bin/bash"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 159328772,
+        "VirtualSize": 159328772,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/d3d2a14ff21a055e94cb418f382c930dff5f4115414736ccd575ede0871edf86/diff:/var/lib/docker/overlay2/16f6be436db8aeb1d560baf4da66871c9b3222973ce27a4f6644f3f8672cac1f/diff:/var/lib/docker/overlay2/9bb8daf772880dd874b3bda34b2e2c06f34359d8caa403889e68d32906f3e72e/diff:/var/lib/docker/overlay2/b59f26471c1ef8648aeb3e518ab4a31d67f4e7517bbb577aef9f82c1d02a50d0/diff:/var/lib/docker/overlay2/33ba4a83e266914c69e57f61d954aad72702b9475e4664f4126f8237cc2a7e5c/diff:/var/lib/docker/overlay2/c6b1144c9cd560c8ae143ccc0ecedb48b7ecd1831e54081e11b07ec50212367f/diff:/var/lib/docker/overlay2/c0d75fdb9b7e9a21b1caf542e85100a833c5bf76d0148a9505889e4f26a77df2/diff",
+                "MergedDir": "/var/lib/docker/overlay2/b0029943f0a5f60673f331a06f5ab36efc799d801cb98063a6af17256af13456/merged",
+                "UpperDir": "/var/lib/docker/overlay2/b0029943f0a5f60673f331a06f5ab36efc799d801cb98063a6af17256af13456/diff",
+                "WorkDir": "/var/lib/docker/overlay2/b0029943f0a5f60673f331a06f5ab36efc799d801cb98063a6af17256af13456/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:5dacd731af1b0386ead06c8b1feff9f65d9e0bdfec032d2cd0bc03690698feda",
+                "sha256:2bca991cdc4d074d3ab3fc45a04b88e7ac1a010aeb6df4d1aeb3ba8f6fb03d0a",
+                "sha256:9b4799ea4c4c8761b96f2fc1114c287efd7648b77c68e1a14b99c56ff38c76e3",
+                "sha256:c9591a4dbc31965d88e4e80a71894c33d681a65f12a8041c47941c441506cc4c",
+                "sha256:3109d31e7c8d113f0318febe0ad492af13ae409db5f369a87ccf6def69dd6a54",
+                "sha256:e2e9a7c6918ba882f7acb1eb5b0ffff5c8194e54d456c2134dbd23a11ae5c2f5",
+                "sha256:20f5daa06459387281868ecae1c9143185c687d383b1ac0209b3746afc6a1164",
+                "sha256:57f33b6c3287f98632bdd7fe2082571016d6887355699d768ce9c033985088da"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2019-05-03T06:32:47.586189255-07:00"
+        }
+    }
+]
